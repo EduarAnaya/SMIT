@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0760E616-B8B5-6D98-F304-0D1490528CED" name="TIPO DISPOSITIVOS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:27:08 UTC</createdTime>
+<generatorID>9BD3A658-F71D-6EBC-C631-E83D8529FC7E</generatorID>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="1BBBBD95-F1DA-417E-FB28-2177FE3FF11A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>SUBCATDISPO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TPD ID INT" id="626305B5-AFBC-C1A7-8F5D-8B25F581ADBA">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:27:08 UTC</createdTime>
+<generatorID>17E5E1DE-4DD4-39A0-B7F6-84557047A677</generatorID>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="1BBBBD95-F1DA-417E-FB28-2177FE3FF11A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TPD DESC V" id="8F1B4A61-FA5D-DD3A-37A9-7D3F6CB8A301">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:27:08 UTC</createdTime>
+<generatorID>E2AD46CD-8B6B-C928-5FD7-EDDB50945A4E</generatorID>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="1BBBBD95-F1DA-417E-FB28-2177FE3FF11A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TPD SUBTIPO INT" id="3270522F-0920-44DF-0356-01793C58DAF7">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:27:08 UTC</createdTime>
+<generatorID>063FFEB6-C4FF-B6FF-1CED-8E4DECAB5C73</generatorID>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="1BBBBD95-F1DA-417E-FB28-2177FE3FF11A" value="true"/>
+</engineerTo>
+<referedAttribute>4C14DB53-6404-7AFA-1651-9C37970F0D8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E94A5961-9C25-A851-3698-B3346CF796FB" name="SUBTIPODISPOSITIVOS PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:27:08 UTC</createdTime>
+<generatorID>7225125A-1430-D3F7-3C47-3FAB4EE858EA</generatorID>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="1BBBBD95-F1DA-417E-FB28-2177FE3FF11A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>626305B5-AFBC-C1A7-8F5D-8B25F581ADBA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

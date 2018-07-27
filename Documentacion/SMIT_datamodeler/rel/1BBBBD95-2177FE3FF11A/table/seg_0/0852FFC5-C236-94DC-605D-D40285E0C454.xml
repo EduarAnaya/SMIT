@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0852FFC5-C236-94DC-605D-D40285E0C454" name="MODELOS_DISPOSITIVOS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:30:48 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MODD_ID_INT" id="8C0A38B5-3F17-0F22-A7FE-31CEBB73D3AE">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:31:38 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODD_DESC_V" id="67178DB9-7A63-E102-D56F-6F6A4F7EBA28">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:32:02 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35A8B450-C26A-A0EE-4A71-C051A425E15B" name="MODELOS_DISPOSITIVOS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:31:38 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C0A38B5-3F17-0F22-A7FE-31CEBB73D3AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

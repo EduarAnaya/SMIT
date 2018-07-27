@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9450E49B-5810-06CD-DC8F-05ECEE2F2D9B" name="DISPOSITIVOS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-26 22:08:18 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>DISPO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DISPO_SERIAL_V" id="AEE0A312-9BD0-E634-D35E-CF541208B8FF">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-26 22:09:36 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISPO_TIPOID_INT" id="1F6F9A38-C7E2-11AF-839F-7774D5F0DEAA">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 13:46:36 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F42F426E-22C0-83E4-4231-D0241B2C4222" referredColumn="17E5E1DE-4DD4-39A0-B7F6-84557047A677"/>
+</associations>
+</Column>
+<Column name="DISPO_MARCA_INT" id="9456CEF0-2DD3-41C7-0B68-762BF80D8A9F">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-26 22:34:05 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F63E6BA-DDCE-B69F-9EB0-D2569BA6D0A4" referredColumn="89FB5940-89C2-F246-AE41-3F650F2FBD1D"/>
+</associations>
+</Column>
+<Column name="DISPO_MODELO_INT" id="C04E6733-FC5F-34C4-5D9A-BF03EF781E57">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-26 22:34:53 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE072D4F-1142-B183-FCE0-D859857FAEC2" referredColumn="8C0A38B5-3F17-0F22-A7FE-31CEBB73D3AE"/>
+</associations>
+</Column>
+<Column name="DISPO_ESTADO_INT" id="F1732C5D-A7FD-2ECD-88A9-DF909CD090D9">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 20:43:06 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISPO_DESC_V" id="868CE132-E350-5AE9-7AD1-57396927789A">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 20:41:43 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E5B3E09-F2D7-4CEC-E593-6B666F4EC736" name="DISPOSITIVOS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-26 22:21:29 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEE0A312-9BD0-E634-D35E-CF541208B8FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="381DCA28-5227-BEA9-B606-B00DAF359D9E" name="DISPOSITIVOS_TIPO_DISPO_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:23:23 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F6F9A38-C7E2-11AF-839F-7774D5F0DEAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02E0D0BD-CB94-6ED0-AB0F-B039570D3176" name="DISPOSITIVOS_MARCA_DISPO_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:34:38 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9456CEF0-2DD3-41C7-0B68-762BF80D8A9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57F9B0F0-4E06-860E-8611-0916C20CD78B" name="DISPOSITIVOS_MOD_DISPO_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:34:46 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C04E6733-FC5F-34C4-5D9A-BF03EF781E57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F42F426E-22C0-83E4-4231-D0241B2C4222" containerWithKeyObject="9450E49B-5810-06CD-DC8F-05ECEE2F2D9B" localFKIndex="381DCA28-5227-BEA9-B606-B00DAF359D9E" name="DISPOSITIVOS_TIPO_DISPO_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:23:23 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<referredTableLongName>TIPO_DISPOSITIVOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9BD3A658-F71D-6EBC-C631-E83D8529FC7E</referredTableID>
+<keyObject>7225125A-1430-D3F7-3C47-3FAB4EE858EA</keyObject>
+<referredKeyID>7225125A-1430-D3F7-3C47-3FAB4EE858EA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TPD_ID_INT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

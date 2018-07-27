@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEED612E-E5C6-2971-962B-E9F22A929D3D" name="SUBT_DISPOSITIVOS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-26 22:08:53 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<abbreviation>STPDP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STDP_ID_INT" id="BC139267-B159-3052-CCD6-6FFDA9A929B5">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-26 22:20:31 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STDP_DESC_V" id="2FE48CEC-FBEE-1B72-26B8-360492223B98">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-26 22:20:53 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1B98ECD-130E-38A9-94CD-4AA91CE06A63" name="TIPO_DISPOSITIVOS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-26 22:20:31 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC139267-B159-3052-CCD6-6FFDA9A929B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

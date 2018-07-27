@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10B81FA9-8987-1085-93BD-EAA2A7AA2B7B" name="MONITORES_DISPO">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:40:20 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MONI_SERIAL_V" id="D3D8C8A4-87C1-9320-3F86-BE6FB41F1AA3">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 19:56:17 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="030DA583-13E8-B0A5-9B00-38CA941564C1" referredColumn="AEE0A312-9BD0-E634-D35E-CF541208B8FF"/>
+</associations>
+</Column>
+<Column name="MONI_TIPO_V" id="052C953E-EF02-2BA1-7462-5F0F5DD1E24B">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 20:23:53 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONI_TPULGADAS_INT" id="78F7B7B0-542F-0CD0-035F-6785A04D3CA3">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 20:23:53 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONI_PVGA_INT" id="161B0A25-2464-CDD4-EE21-18AB717AEA95">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 20:23:53 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONI_PDHMI_INT" id="933724D9-2CE7-332C-C974-6B0064EBC8AD">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 20:23:53 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONI_PDVI_INT" id="2658620D-4A3C-BB0D-525A-443F15A99449">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 20:23:53 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONI_PDP_INT" id="B2A6ECC4-7A8E-3758-A2F9-9DC61CC992D8">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 20:23:53 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONI_PUSB_INT" id="7EBA8916-1AC7-334F-9768-DE34E72E0A7D">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 20:23:53 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52B12090-4DD3-6A45-BCAC-446114446398" name="MONITORES_DISPO_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 19:56:17 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3D8C8A4-87C1-9320-3F86-BE6FB41F1AA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="186DA476-2FBE-9C65-1980-AF08FE7F481E" name="MONI_DISPO_DISPO_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 20:44:03 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3D8C8A4-87C1-9320-3F86-BE6FB41F1AA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

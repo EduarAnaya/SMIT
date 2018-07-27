@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7CA7E75-283E-2783-6245-9429EE21A5B1" name="RED_DISPO">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:40:21 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DRED_SERIAL_V" id="0581A241-FE49-9E60-595F-647952CE3FF3">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 21:14:51 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02D8CEC8-B056-8C7C-3310-BCEC939D90C8" referredColumn="AEE0A312-9BD0-E634-D35E-CF541208B8FF"/>
+</associations>
+</Column>
+<Column name="DRED_VELOCIDAD_INT" id="A648BD9D-1B2F-9195-78AA-2172690F702D">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 21:14:51 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRED_BANDAS_V" id="1CEEFB69-671D-D449-F541-B6D9C3AD446E">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 21:14:51 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRED_CATEGORIA_V" id="4BEAED74-0162-53B0-8055-13C36864222A">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 21:14:51 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRED_PUERTOS_INT" id="599CACA3-43C7-6424-A442-C5468972E7A1">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 21:14:51 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRED_ADMINIS_INT" id="B5F499E1-79A3-297D-0769-9D25A1E4CC70">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 21:16:28 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85FE948E-6409-1890-46C9-B8AF66403AFE" name="RED_DISPO_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 21:14:51 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0581A241-FE49-9E60-595F-647952CE3FF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78C2DE4D-ED0F-FD09-9F31-62412EDB28BA" name="RED_DISPO_DISPOSITIVOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 21:17:18 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0581A241-FE49-9E60-595F-647952CE3FF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

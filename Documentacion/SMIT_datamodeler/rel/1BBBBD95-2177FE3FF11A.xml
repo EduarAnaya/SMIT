@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="SMIT_INVENTARIOS" id="1BBBBD95-F1DA-417E-FB28-2177FE3FF11A" mainViewID="19F08504-C79F-85E3-AEA4-76CB9AE51E63">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-26 22:07:58 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

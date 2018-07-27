@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C75BD32C-F90F-5BFA-A831-B0B35811E7B8" name="MARCA DISPOSITIVOS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:44:44 UTC</createdTime>
+<generatorID>97CF718E-982E-2520-0A67-76AC68A65530</generatorID>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="1BBBBD95-F1DA-417E-FB28-2177FE3FF11A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MARC ID INT" id="FA279B82-5C30-672D-3258-02391E8A0BD1">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:44:44 UTC</createdTime>
+<generatorID>89FB5940-89C2-F246-AE41-3F650F2FBD1D</generatorID>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="1BBBBD95-F1DA-417E-FB28-2177FE3FF11A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MARC DESC V" id="63CC7592-1816-7071-9C28-B0617697748D">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:44:44 UTC</createdTime>
+<generatorID>112C0B78-3F4F-532B-941E-2866D4D106AD</generatorID>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="1BBBBD95-F1DA-417E-FB28-2177FE3FF11A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B982EFE-C072-63E4-A92D-E480CD997DA0" name="MARCA DISPOSITIVOS PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:44:44 UTC</createdTime>
+<generatorID>12046F55-28C7-3906-DBED-782F947A2A0F</generatorID>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="1BBBBD95-F1DA-417E-FB28-2177FE3FF11A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA279B82-5C30-672D-3258-02391E8A0BD1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

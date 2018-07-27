@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SMIT_datamodeler" id="704C899A-760D-D69E-4C44-2206576FCB28" version="3.5">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-26 20:01:39 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>704C899A-760D-D69E-4C44-2206576FCB28</designId>
+</OSDM_Design>

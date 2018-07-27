@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="02D8CEC8-B056-8C7C-3310-BCEC939D90C8" containerWithKeyObject="E7CA7E75-283E-2783-6245-9429EE21A5B1" localFKIndex="78C2DE4D-ED0F-FD09-9F31-62412EDB28BA" name="RED_DISPO_DISPOSITIVOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 21:17:18 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<referredTableLongName>DISPOSITIVOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9450E49B-5810-06CD-DC8F-05ECEE2F2D9B</referredTableID>
+<keyObject>2E5B3E09-F2D7-4CEC-E593-6B666F4EC736</keyObject>
+<referredKeyID>2E5B3E09-F2D7-4CEC-E593-6B666F4EC736</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DISPO_SERIAL_V</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B72F10C0-981F-1CF0-FBD5-4F23A4439F6E" name="SUMINISTRO_IMPRE">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 19:19:23 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CONS_ID_INT" id="B13094B3-9856-66D2-0661-C78E17AED190">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 19:49:40 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONS_TIPO_V" id="880ACC5A-593C-42C8-E70A-9305EA977688">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 19:52:03 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONS_CAPACIDAD_INT" id="AE9ED9B1-64EF-C64C-32DA-52A1A2485278">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 19:52:03 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONS_DESC_V" id="C984BFCA-7B63-73CF-943B-85376E870149">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 19:50:08 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1034150-BD76-1C6A-F0BC-9A0CE93008E0" name="SUMINISTRO_IMPRE_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 19:49:40 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B13094B3-9856-66D2-0661-C78E17AED190"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

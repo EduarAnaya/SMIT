@@ -1,0 +1,4 @@
+------------RESET IDENTITY----------------
+DBCC ('TABLA', RESEED,0);
+-----------MOSTRAR TODAS LAS TABLAS DE UN SQUEMA------------
+SELECT * FROM information_schema.tables;

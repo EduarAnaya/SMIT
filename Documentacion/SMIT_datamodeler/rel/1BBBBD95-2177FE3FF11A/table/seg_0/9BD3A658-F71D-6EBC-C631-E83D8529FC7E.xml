@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BD3A658-F71D-6EBC-C631-E83D8529FC7E" name="TIPO_DISPOSITIVOS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-26 22:35:30 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<abbreviation>SUBCATDISPO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TPD_ID_INT" id="17E5E1DE-4DD4-39A0-B7F6-84557047A677">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-26 22:38:41 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TPD_DESC_V" id="E2AD46CD-8B6B-C928-5FD7-EDDB50945A4E">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-26 22:38:41 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TPD_SUBTIPO_INT" id="9DCE3795-0605-9B45-4A99-4ACEA7BD49CE">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-26 22:41:00 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FC9762C-99F7-2DF9-DB33-75AFDD3604A5" referredColumn="BC139267-B159-3052-CCD6-6FFDA9A929B5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7225125A-1430-D3F7-3C47-3FAB4EE858EA" name="SUBTIPODISPOSITIVOS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-26 22:38:41 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17E5E1DE-4DD4-39A0-B7F6-84557047A677"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EAA4B6E-CDEF-CC93-7175-5CFD7C1FF068" name="TIPO_DISPO_SUBT_DISPO_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:26:23 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DCE3795-0605-9B45-4A99-4ACEA7BD49CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

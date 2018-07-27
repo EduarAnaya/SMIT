@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B77A031-89C5-5632-68A8-9DA44F8A0AE2" name="IMPRESORAS_DISPO">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:40:16 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IMPR_SERIAL_V" id="89D83588-4688-A56E-6EB0-889812E5EE89">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 19:20:15 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9393FEE8-37DE-5A16-313E-F21010EE12EF" referredColumn="AEE0A312-9BD0-E634-D35E-CF541208B8FF"/>
+</associations>
+</Column>
+<Column name="IMPR_LAN_INT" id="BBBC34E0-B044-DA00-4723-A6E83CD74416">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 19:31:36 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMPR_WIFI_INT" id="3A1BBF58-6E24-8E29-B9FA-C49E58522433">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 19:43:27 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMPR_SUMINISTRO_INT" id="67BD0A22-80BA-19F0-2D18-043C36B91DB3">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 19:49:05 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="718EE699-71D9-5930-7557-4E6826833B80" referredColumn="B13094B3-9856-66D2-0661-C78E17AED190"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5239E548-AC69-A806-FF56-043F31F0FE60" name="IMPRESORAS_DISPO_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 19:20:15 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89D83588-4688-A56E-6EB0-889812E5EE89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10265887-98E8-D96A-FF16-F6F9C90145E9" name="IMPR_DISPO_DISPO_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 19:20:30 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89D83588-4688-A56E-6EB0-889812E5EE89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0F79221-8C5B-DE16-EE91-471516475875" name="IMPR_DISPO_SUMI_IMPRE_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 19:51:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67BD0A22-80BA-19F0-2D18-043C36B91DB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

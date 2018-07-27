@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="718EE699-71D9-5930-7557-4E6826833B80" containerWithKeyObject="4B77A031-89C5-5632-68A8-9DA44F8A0AE2" localFKIndex="B0F79221-8C5B-DE16-EE91-471516475875" name="IMPR_DISPO_SUMI_IMPRE_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 19:51:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<referredTableLongName>SUMINISTRO_IMPRE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B72F10C0-981F-1CF0-FBD5-4F23A4439F6E</referredTableID>
+<keyObject>E1034150-BD76-1C6A-F0BC-9A0CE93008E0</keyObject>
+<referredKeyID>E1034150-BD76-1C6A-F0BC-9A0CE93008E0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CONS_ID_INT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

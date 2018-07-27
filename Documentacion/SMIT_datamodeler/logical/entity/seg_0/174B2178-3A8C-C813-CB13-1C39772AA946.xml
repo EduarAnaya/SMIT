@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="174B2178-3A8C-C813-CB13-1C39772AA946" name="RED DISPO">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-27 16:44:44 UTC</createdTime>
+<generatorID>E7CA7E75-283E-2783-6245-9429EE21A5B1</generatorID>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<engineerTo>
+<item key="1BBBBD95-F1DA-417E-FB28-2177FE3FF11A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>
