@@ -31,7 +31,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="0D6A4E05-2C54-EE81-9498-0F5D731B2963" name="INTERFAZ_HDD_PK">
+<ind_PK_UK id="0D6A4E05-2C54-EE81-9498-0F5D731B2963" name="INTERFAZHDD_PK">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-27 17:07:47 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>

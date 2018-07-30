@@ -1,15 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C37D74F5-FD36-DA7B-2472-6841CC4EAC10" containerWithKeyObject="C5AC01C5-0881-412B-752C-88A10A72CD40" localFKIndex="DD623958-6DF5-AD12-D4E6-AE0DB486128C" name="PCS_DISPO_INTERFAZ_HDD_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C37D74F5-FD36-DA7B-2472-6841CC4EAC10" containerWithKeyObject="C5AC01C5-0881-412B-752C-88A10A72CD40" localFKIndex="DD623958-6DF5-AD12-D4E6-AE0DB486128C" name="COMPUTADORES_INTERFAZHDD_FK">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-27 17:08:56 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>
-<referredTableLongName>INTERFAZ_HDD</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>B2262DF5-8271-532E-BF77-2DDB251D9D66</referredTableID>
 <keyObject>0D6A4E05-2C54-EE81-9498-0F5D731B2963</keyObject>
 <referredKeyID>0D6A4E05-2C54-EE81-9498-0F5D731B2963</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>INHD_ID_INT</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

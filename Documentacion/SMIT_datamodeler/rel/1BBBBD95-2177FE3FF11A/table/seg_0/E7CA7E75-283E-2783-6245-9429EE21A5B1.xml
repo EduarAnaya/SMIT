@@ -81,7 +81,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="85FE948E-6409-1890-46C9-B8AF66403AFE" name="RED_DISPO_PK">
+<ind_PK_UK id="85FE948E-6409-1890-46C9-B8AF66403AFE" name="RED_PK">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-27 21:14:51 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>
@@ -92,7 +92,7 @@
 <colUsage columnID="0581A241-FE49-9E60-595F-647952CE3FF3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="78C2DE4D-ED0F-FD09-9F31-62412EDB28BA" name="RED_DISPO_DISPOSITIVOS_FK">
+<ind_PK_UK id="78C2DE4D-ED0F-FD09-9F31-62412EDB28BA" name="RED_DISPOSITIVOS_FK">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-27 21:17:18 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>

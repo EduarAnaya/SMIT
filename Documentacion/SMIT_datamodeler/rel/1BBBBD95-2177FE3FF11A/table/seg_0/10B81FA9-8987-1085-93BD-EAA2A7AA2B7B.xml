@@ -101,7 +101,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="52B12090-4DD3-6A45-BCAC-446114446398" name="MONITORES_DISPO_PK">
+<ind_PK_UK id="52B12090-4DD3-6A45-BCAC-446114446398" name="MONITORES_PK">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-27 19:56:17 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>
@@ -112,7 +112,7 @@
 <colUsage columnID="D3D8C8A4-87C1-9320-3F86-BE6FB41F1AA3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="186DA476-2FBE-9C65-1980-AF08FE7F481E" name="MONI_DISPO_DISPO_FK">
+<ind_PK_UK id="186DA476-2FBE-9C65-1980-AF08FE7F481E" name="MONITORES_DISPOSITIVOS_FK">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-27 20:44:03 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>

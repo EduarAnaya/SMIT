@@ -1,15 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EE072D4F-1142-B183-FCE0-D859857FAEC2" containerWithKeyObject="9450E49B-5810-06CD-DC8F-05ECEE2F2D9B" localFKIndex="57F9B0F0-4E06-860E-8611-0916C20CD78B" name="DISPOSITIVOS_MOD_DISPO_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EE072D4F-1142-B183-FCE0-D859857FAEC2" containerWithKeyObject="9450E49B-5810-06CD-DC8F-05ECEE2F2D9B" localFKIndex="57F9B0F0-4E06-860E-8611-0916C20CD78B" name="DISPOSITIVOS_MODELOSDIS_FK">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-27 16:34:46 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>
-<referredTableLongName>MODELOS_DISPOSITIVOS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>0852FFC5-C236-94DC-605D-D40285E0C454</referredTableID>
 <keyObject>35A8B450-C26A-A0EE-4A71-C051A425E15B</keyObject>
 <referredKeyID>35A8B450-C26A-A0EE-4A71-C051A425E15B</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>MODD_ID_INT</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

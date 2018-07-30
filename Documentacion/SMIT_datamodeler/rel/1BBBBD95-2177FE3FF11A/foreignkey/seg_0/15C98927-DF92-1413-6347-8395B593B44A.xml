@@ -1,15 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="15C98927-DF92-1413-6347-8395B593B44A" containerWithKeyObject="5865DCB7-FDA7-1051-8688-2A02FFA0BD27" localFKIndex="88B86C4C-FD78-7A9F-A674-F680D755A7E7" name="PROS_MARCA_DISPO_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="15C98927-DF92-1413-6347-8395B593B44A" containerWithKeyObject="5865DCB7-FDA7-1051-8688-2A02FFA0BD27" localFKIndex="88B86C4C-FD78-7A9F-A674-F680D755A7E7" name="PROSESADORES_MARCAS_FK">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-27 17:29:10 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>
-<referredTableLongName>MARCA_DISPOSITIVOS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>97CF718E-982E-2520-0A67-76AC68A65530</referredTableID>
 <keyObject>12046F55-28C7-3906-DBED-782F947A2A0F</keyObject>
 <referredKeyID>12046F55-28C7-3906-DBED-782F947A2A0F</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>MARC_ID_INT</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

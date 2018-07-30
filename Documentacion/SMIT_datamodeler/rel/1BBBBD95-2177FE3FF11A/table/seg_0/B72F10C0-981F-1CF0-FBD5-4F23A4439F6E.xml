@@ -53,7 +53,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E1034150-BD76-1C6A-F0BC-9A0CE93008E0" name="SUMINISTRO_IMPRE_PK">
+<ind_PK_UK id="E1034150-BD76-1C6A-F0BC-9A0CE93008E0" name="SUMINISTROS_PK">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-27 19:49:40 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>

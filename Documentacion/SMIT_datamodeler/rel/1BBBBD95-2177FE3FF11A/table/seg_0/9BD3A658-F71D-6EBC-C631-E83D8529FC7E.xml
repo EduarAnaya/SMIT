@@ -4,7 +4,7 @@
 <createdTime>2018-07-26 22:35:30 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>
 <ordsAlias>table_3</ordsAlias>
-<abbreviation>SUBCATDISPO</abbreviation>
+<abbreviation>TIPODISPO</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -31,7 +31,7 @@
 <ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TPD_SUBTIPO_INT" id="9DCE3795-0605-9B45-4A99-4ACEA7BD49CE">
+<Column name="TPD_CATTIPO_INT" id="9DCE3795-0605-9B45-4A99-4ACEA7BD49CE">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-26 22:41:00 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>
@@ -41,12 +41,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1FC9762C-99F7-2DF9-DB33-75AFDD3604A5" referredColumn="BC139267-B159-3052-CCD6-6FFDA9A929B5"/>
+<colAssociation fkAssociation="4F332E9C-33BC-BF15-8D66-E8582F494942" referredColumn="BC139267-B159-3052-CCD6-6FFDA9A929B5"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7225125A-1430-D3F7-3C47-3FAB4EE858EA" name="SUBTIPODISPOSITIVOS_PK">
+<ind_PK_UK id="7225125A-1430-D3F7-3C47-3FAB4EE858EA" name="TIPODISPOSITIVOS_PK">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-26 22:38:41 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>
@@ -57,9 +57,9 @@
 <colUsage columnID="17E5E1DE-4DD4-39A0-B7F6-84557047A677"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3EAA4B6E-CDEF-CC93-7175-5CFD7C1FF068" name="TIPO_DISPO_SUBT_DISPO_FK">
-<createdBy>auxsoporte1</createdBy>
-<createdTime>2018-07-27 16:26:23 UTC</createdTime>
+<ind_PK_UK id="1744551D-EF64-782B-EC10-E25C66D2F3A1" name="TIPODISPO_CATDISPO_FK">
+<createdBy>EDUAR</createdBy>
+<createdTime>2018-07-28 21:13:06 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>

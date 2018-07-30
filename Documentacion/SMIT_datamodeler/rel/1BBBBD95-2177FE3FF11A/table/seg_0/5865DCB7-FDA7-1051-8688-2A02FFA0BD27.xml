@@ -78,7 +78,7 @@
 <colUsage columnID="D8E6EA89-2322-6530-C9CD-71EAD57982D4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="88B86C4C-FD78-7A9F-A674-F680D755A7E7" name="PROS_MARCA_DISPO_FK">
+<ind_PK_UK id="88B86C4C-FD78-7A9F-A674-F680D755A7E7" name="PROSESADORES_MARCAS_FK">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-27 17:29:10 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>

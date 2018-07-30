@@ -70,7 +70,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="61B06D8B-C48A-8DE4-BD8C-A6AB3A7D85BF" name="COMPUTADORES_DISPO_PK">
+<ind_PK_UK id="61B06D8B-C48A-8DE4-BD8C-A6AB3A7D85BF" name="COMPUTADORES_PK">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-27 16:44:02 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>
@@ -81,7 +81,7 @@
 <colUsage columnID="03601D4A-3E4B-00E9-632F-1D027DBBBD71"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="11F971C3-6A91-E954-D754-0C3F8CA6DA71" name="PCS_DISPO_DISPOSITIVOS_FK">
+<ind_PK_UK id="11F971C3-6A91-E954-D754-0C3F8CA6DA71" name="COMPUTADORES_DISPOSITIVOS_FK">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-27 16:44:27 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>
@@ -91,7 +91,7 @@
 <colUsage columnID="03601D4A-3E4B-00E9-632F-1D027DBBBD71"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DD623958-6DF5-AD12-D4E6-AE0DB486128C" name="PCS_DISPO_INTERFAZ_HDD_FK">
+<ind_PK_UK id="DD623958-6DF5-AD12-D4E6-AE0DB486128C" name="COMPUTADORES_INTERFAZHDD_FK">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-27 17:08:56 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>
@@ -101,7 +101,7 @@
 <colUsage columnID="85BB8A48-8D80-12EB-86D8-FA23737D238C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="71B621F9-06F6-138F-F59F-70D4B812EEFC" name="PCS_DISPO_PROCESADORES_FK">
+<ind_PK_UK id="71B621F9-06F6-138F-F59F-70D4B812EEFC" name="COMPUTADORES_PROCESADORES_FK">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-27 17:29:29 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>

@@ -1,15 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9393FEE8-37DE-5A16-313E-F21010EE12EF" containerWithKeyObject="4B77A031-89C5-5632-68A8-9DA44F8A0AE2" localFKIndex="10265887-98E8-D96A-FF16-F6F9C90145E9" name="IMPR_DISPO_DISPO_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9393FEE8-37DE-5A16-313E-F21010EE12EF" containerWithKeyObject="4B77A031-89C5-5632-68A8-9DA44F8A0AE2" localFKIndex="10265887-98E8-D96A-FF16-F6F9C90145E9" name="IMPRESORAS_DISPOSITIVOS_FK">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-27 19:20:30 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>
-<referredTableLongName>DISPOSITIVOS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>9450E49B-5810-06CD-DC8F-05ECEE2F2D9B</referredTableID>
 <keyObject>2E5B3E09-F2D7-4CEC-E593-6B666F4EC736</keyObject>
 <referredKeyID>2E5B3E09-F2D7-4CEC-E593-6B666F4EC736</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>DISPO_SERIAL_V</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
