@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="485CE7D6-B51A-D9CE-36A0-DDD4AAB306F7" name="INVENTARIO_BODEGA">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 17:35:06 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INVBO_ID_INT" id="FB099C66-2B1B-3AD3-C8BE-A318DBFFD1A9">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 17:37:57 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVBO_BODEGA_INT" id="F3F2FC19-7D33-86BD-3EE6-58922A855745">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 21:34:19 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C0807C1-1E45-DDC4-A079-5294815CECF7" referredColumn="B22D468B-579B-F57A-8FA5-E818988A391E"/>
+</associations>
+</Column>
+<Column name="INVBO_SERIALDISPO_V" id="D8B53B6C-D95D-7890-9E7A-7C1F8A577C3D">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 17:37:57 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A801F784-A925-7F43-F064-7E95B8AC008D" referredColumn="AEE0A312-9BD0-E634-D35E-CF541208B8FF"/>
+</associations>
+</Column>
+<Column name="INVBO_IDREPUESTO_INT" id="9FC40EEA-F08B-E76F-E16A-AEAD64CA987A">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-01 17:46:24 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12353A05-005F-10EE-32FD-574C80CCF2BB" referredColumn="00792EB5-C37C-4032-938C-544DCC6A4A69"/>
+</associations>
+</Column>
+<Column name="INVBO_TIPOELEMENTO_V" id="E095C4AC-B911-20A9-6372-E4C02E92B5B5">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-01 17:53:53 UTC</createdTime>
+<comment>D:Dispositivo;R:Repuesto</comment>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="D" description="Dispositivo"/>
+<valueDef value="R" description="Repuesto"/>
+</listOfValues>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVBO_FECINGRESO_DATE" id="F5E2AC88-1961-6421-36F7-47A8436554C1">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 21:21:59 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVBO_FECSALIDA_DATE" id="477EE7EE-1C38-E49A-9654-2CE06A7C3547">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-31 23:05:02 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVBO_ESTADOBOD_V" id="D18E2F5D-BC4F-CCC4-B74B-1DE3F8F384E2">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-31 23:05:59 UTC</createdTime>
+<comment>I:Ingresado;R:Retirado</comment>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="I" description="Ingresado"/>
+<valueDef value="R" description="Retirado"/>
+</listOfValues>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVBO_DESC_V" id="EED71744-8C96-10B3-3A20-34DE0F416A7E">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 21:23:59 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FE56141-CB1D-BADE-7716-48F672AA7F5F" name="DISPOSITIVOS_BODEGA_PKv2">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 21:17:29 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB099C66-2B1B-3AD3-C8BE-A318DBFFD1A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24399751-76CD-0B86-DDEA-477D36AB71C7" name="INVENBODEGA_BODEGAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 22:08:36 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3F2FC19-7D33-86BD-3EE6-58922A855745"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="809BCFEC-B2D6-61BB-C094-437735E4AE9F" name="INVENBODEGA_DISPOSITIVOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 22:10:40 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8B53B6C-D95D-7890-9E7A-7C1F8A577C3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25BC82AC-1A8C-4EC9-E02D-BA3B3C48E8AC" name="INVENBODEGA_REPUESTOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-01 17:52:36 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FC40EEA-F08B-E76F-E16A-AEAD64CA987A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

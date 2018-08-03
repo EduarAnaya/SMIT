@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="411185CD-C4D5-5B1D-62FE-2EAA35AD1CF9" name="DOCUMENTOS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 16:06:17 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DOCU_ID_INT" id="1D53D668-D107-9E13-A268-DFDC9599EAA3">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 16:07:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCU_NOMBRE_V" id="52DDDD1D-67E3-0617-0718-B8FB92131E6D">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 16:07:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCU_NOMBREARCHIVO_V" id="183943BE-98CF-822D-8CF4-810EC7CD6081">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 16:17:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCU_RUTAARCHIVO_V" id="024E58C9-6D08-4298-B6E2-B62BA84BA540">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 16:22:30 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCU_MIME_V" id="DF9C7E2E-46F1-99F1-75D1-81CAFF193449">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 16:26:26 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCU_FECMODIF_DATE" id="95AF9DA2-565B-4102-F7EF-BD12D0707D2B">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 16:28:06 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86D68C80-03FD-BB7B-BC99-F7F92EB23267" name="DOCUMENTOS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 16:07:11 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D53D668-D107-9E13-A268-DFDC9599EAA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

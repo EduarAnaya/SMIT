@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B72F10C0-981F-1CF0-FBD5-4F23A4439F6E" name="SUMINISTRO_IMPRE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B72F10C0-981F-1CF0-FBD5-4F23A4439F6E" name="SUMINISTROS_IMPRE">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-27 19:19:23 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>
@@ -16,6 +16,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="CONS_TIPO_V" id="880ACC5A-593C-42C8-E70A-9305EA977688">

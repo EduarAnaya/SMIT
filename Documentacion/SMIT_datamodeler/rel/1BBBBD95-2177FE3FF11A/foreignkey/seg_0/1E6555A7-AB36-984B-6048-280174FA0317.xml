@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E6555A7-AB36-984B-6048-280174FA0317" containerWithKeyObject="C51CC429-A97D-3657-7002-42E5334271AD" localFKIndex="243B4DCB-71F0-4D62-16EC-DEBFA40D42C5" name="INVBAJAS_EMPRESAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 15:57:00 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<referredTableLongName>EMPRESAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>724B17A8-E6D8-0830-9688-B1ACC7AD63DD</referredTableID>
+<keyObject>AE8F1152-D388-12C0-C120-8D3ADD37AA54</keyObject>
+<referredKeyID>AE8F1152-D388-12C0-C120-8D3ADD37AA54</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>EMPRE_NIT_V</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

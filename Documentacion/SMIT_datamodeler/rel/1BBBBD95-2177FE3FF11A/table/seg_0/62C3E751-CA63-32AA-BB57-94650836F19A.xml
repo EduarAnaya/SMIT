@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62C3E751-CA63-32AA-BB57-94650836F19A" name="REPUESTOS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 16:05:03 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REPU_ID_INT" id="00792EB5-C37C-4032-938C-544DCC6A4A69">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 16:07:30 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPU_SERIAL_V" id="DEF07180-163D-F6D5-1DE8-A7A074D79957">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 16:07:30 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPU_MARCA_INT" id="1D994A3D-E05E-6D5C-B6E9-4FCF8328C912">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 16:07:30 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAD831E3-3AC2-73A0-B111-3645BE2C1FF3" referredColumn="89FB5940-89C2-F246-AE41-3F650F2FBD1D"/>
+</associations>
+</Column>
+<Column name="REPU_MODELO_INT" id="5E4521E5-4119-FA5D-839F-503A3C7F82B5">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 16:07:30 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46C42E47-293B-8A6B-8917-95BFB882AE12" referredColumn="8C0A38B5-3F17-0F22-A7FE-31CEBB73D3AE"/>
+</associations>
+</Column>
+<Column name="REPU_TIPOC_INT" id="FB781115-8EB8-CEE9-45DE-438F4A86F678">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 16:07:30 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD2462E1-1735-BC04-C69A-B6B12180F985" referredColumn="0BB01095-9BDD-4CF6-4AED-FB3D62022782"/>
+</associations>
+</Column>
+<Column name="REPU_OBSERVA_V" id="C009FE1A-1EE8-6A6D-0504-7065B41C9DD3">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 16:07:30 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPU_ESTADOUSO_V" id="74C9BEA8-69AD-F78F-8E1B-46ECDD36751D">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-31 23:02:29 UTC</createdTime>
+<comment>N:Nuevo;U:Usado</comment>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPU_ESTADODISPO_V" id="774D7860-E31F-3E86-E576-73A8077A78AC">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-31 23:02:29 UTC</createdTime>
+<comment>L:Libre;O:Ocupado</comment>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPU_ESTADOINVET_V" id="01CAD6A6-02E7-A48B-9A25-E79AA7C56389">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-31 23:02:29 UTC</createdTime>
+<comment>A:Activo;D:Donado;DF:Disposicion Final</comment>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D849725-D7D6-144A-E468-CC78E61BBAC1" name="REPUESTOS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 16:07:30 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00792EB5-C37C-4032-938C-544DCC6A4A69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33ABDE3E-CA1E-D037-1CBF-ACD0CB949C31" name="REPUESTOS_TIPOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 16:16:09 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB781115-8EB8-CEE9-45DE-438F4A86F678"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48C9782E-CAEF-F527-E3B7-E73CE447F809" name="REPUESTOS_MARCAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 16:19:56 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D994A3D-E05E-6D5C-B6E9-4FCF8328C912"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05581D62-7C4B-F99F-3042-42AF2ACDA9ED" name="REPUESTOS_MODELOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 16:19:56 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E4521E5-4119-FA5D-839F-503A3C7F82B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

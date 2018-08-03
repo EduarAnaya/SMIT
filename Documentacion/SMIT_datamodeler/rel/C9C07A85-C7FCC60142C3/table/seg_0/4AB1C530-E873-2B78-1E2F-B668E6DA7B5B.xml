@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4AB1C530-E873-2B78-1E2F-B668E6DA7B5B" name="EMPLEADOS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 15:10:16 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<usedAsRemoteObject>true</usedAsRemoteObject>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPL_CEDULA_V" id="E4B1A8BF-1B58-6F02-6854-BFEB4FB9CBD5">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 15:11:06 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7C30651-6843-2606-A2C7-CCC4495FEAE1" referredColumn="7CAEF8C4-9FF7-8F2B-5549-9FD06C7C1B14"/>
+</associations>
+</Column>
+<Column name="EMPL_AREA_INT" id="A26412B0-ED90-D1CA-672E-117BC6528FD2">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 15:12:54 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPL_ESTADO_V" id="CFB4DC18-1DCF-8957-FFA0-A6BFE2ABCA13">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 15:13:29 UTC</createdTime>
+<comment>A:Activo;I:Inactivo</comment>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="Activo"/>
+<valueDef value="I" description="Inactivo"/>
+</listOfValues>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F39C253-D233-7EED-83E8-CEAEBFCA9700" name="EMPLEADOS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 15:11:38 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4B1A8BF-1B58-6F02-6854-BFEB4FB9CBD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="556CAC6F-83F6-3DA0-C9E7-F76FA3857A2B" name="EMPLEADOS_PERSONAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 15:11:29 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4B1A8BF-1B58-6F02-6854-BFEB4FB9CBD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

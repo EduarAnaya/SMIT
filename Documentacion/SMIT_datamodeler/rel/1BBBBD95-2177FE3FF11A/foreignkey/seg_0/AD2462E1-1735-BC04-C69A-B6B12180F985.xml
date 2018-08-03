@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AD2462E1-1735-BC04-C69A-B6B12180F985" containerWithKeyObject="62C3E751-CA63-32AA-BB57-94650836F19A" localFKIndex="33ABDE3E-CA1E-D037-1CBF-ACD0CB949C31" name="REPUESTOS_TIPOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 16:16:09 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<referredTableLongName>TIPOSREPUESTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>248D4B54-1080-07A9-3F62-56CA43F7FD67</referredTableID>
+<keyObject>A7F59C0E-D3EE-E0FC-0192-BC840755485C</keyObject>
+<referredKeyID>A7F59C0E-D3EE-E0FC-0192-BC840755485C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COMR_ID_INT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

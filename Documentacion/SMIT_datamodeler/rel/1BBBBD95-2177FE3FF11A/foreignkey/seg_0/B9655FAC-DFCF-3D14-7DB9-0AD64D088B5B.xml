@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B9655FAC-DFCF-3D14-7DB9-0AD64D088B5B" containerWithKeyObject="8E53A5BF-6E7D-DC4F-6DAF-A2C2DC01D3F1" localFKIndex="314EA916-1627-E312-31CA-E5DEE0C9DC80" name="REPUCOMP_CATDISPO_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-31 22:54:04 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<referredTableLongName>CATEGORIA_DISPOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EEED612E-E5C6-2971-962B-E9F22A929D3D</referredTableID>
+<keyObject>A1B98ECD-130E-38A9-94CD-4AA91CE06A63</keyObject>
+<referredKeyID>A1B98ECD-130E-38A9-94CD-4AA91CE06A63</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CATD_ID_INT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

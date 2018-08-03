@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8ACFD31D-051E-6E32-7E1A-D1BD705AB75B" containerWithKeyObject="8E53A5BF-6E7D-DC4F-6DAF-A2C2DC01D3F1" localFKIndex="AF667815-88DF-D4D4-BD34-2EBE13A09B74" name="REPUCOMP_MODELOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 16:32:37 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<referredTableLongName>MODELOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0852FFC5-C236-94DC-605D-D40285E0C454</referredTableID>
+<keyObject>35A8B450-C26A-A0EE-4A71-C051A425E15B</keyObject>
+<referredKeyID>35A8B450-C26A-A0EE-4A71-C051A425E15B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MODD_ID_INT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

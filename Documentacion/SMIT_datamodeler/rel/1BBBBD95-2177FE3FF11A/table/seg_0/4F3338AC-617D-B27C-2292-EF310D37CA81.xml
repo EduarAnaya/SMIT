@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F3338AC-617D-B27C-2292-EF310D37CA81" name="DETALLE_BAJAS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 19:39:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DTBA_ID_INT" id="0091ECCB-5846-5ACD-D682-67E7E2F433F8">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 19:53:02 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DTBA_BAJAINVENTARIO_INT" id="B55FFD1B-787F-6878-81E8-A229090C7D6A">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 19:53:50 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34386A37-83F1-A7D3-2939-BDA369223444" referredColumn="4239C15B-A2D2-A8AF-5C4D-686329B121E3"/>
+</associations>
+</Column>
+<Column name="DTBA_TIPOELEMETO_V" id="2A1915B2-8CFF-C89F-8A5F-8676072C1F65">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 19:41:55 UTC</createdTime>
+<comment>R:Repuestos;D:Dispositivos</comment>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="D" description="Dispositivos"/>
+<valueDef value="R" description="Repuestos"/>
+</listOfValues>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INBA_DISPOSITIVO_V" id="6EAC83DD-A876-1803-20B9-1CD183CE17F6">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 19:41:55 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE55A23B-1601-5AD1-6F3E-75FC1C64ED2A" referredColumn="AEE0A312-9BD0-E634-D35E-CF541208B8FF"/>
+</associations>
+</Column>
+<Column name="INBA_REPUESTO_INT" id="35C4166C-78D9-6E6A-5C57-6EC1AC23F185">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 19:41:55 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7D0A09D-8BB2-9A15-A58A-FE1BBF1FFE1E" referredColumn="00792EB5-C37C-4032-938C-544DCC6A4A69"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8BE2DA6-1F60-0D4E-E4A7-B058E99471D0" name="DETALLE_BAJAS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 19:53:50 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0091ECCB-5846-5ACD-D682-67E7E2F433F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7200687B-23F8-EDB2-9CDF-BF5489AD23E9" name="DETALLE_BAJAS_DISP_UN">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 19:59:22 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EAC83DD-A876-1803-20B9-1CD183CE17F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85EAFCF0-2535-2EA4-9738-6F8DD0EE3CED" name="DETALLE_BAJAS_REP_UN">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 19:59:22 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35C4166C-78D9-6E6A-5C57-6EC1AC23F185"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6ADFF2F6-0B5B-FA75-5185-29947F388AD5" name="DETBAJAS_DISPOSITIVOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 19:45:21 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EAC83DD-A876-1803-20B9-1CD183CE17F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E757FA7-0800-09E6-805C-E29775C84738" name="DETBAJAS_REPUESTOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 19:45:21 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35C4166C-78D9-6E6A-5C57-6EC1AC23F185"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06AFFF45-5625-DD24-79D0-961139D37C51" name="DETBAJAS_INVBAJAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 19:54:25 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B55FFD1B-787F-6878-81E8-A229090C7D6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

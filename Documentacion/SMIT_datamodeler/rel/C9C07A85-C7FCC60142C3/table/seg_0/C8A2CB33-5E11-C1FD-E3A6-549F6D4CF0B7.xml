@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8A2CB33-5E11-C1FD-E3A6-549F6D4CF0B7" name="PROVEDORES">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 13:57:06 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<usedAsRemoteObject>true</usedAsRemoteObject>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROV_ID_V" id="F6C58FD6-B9E4-167D-D48C-9DE64C869492">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 13:59:44 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROV_TIPOPROV_V" id="1784BB3A-023F-92DF-3773-840829AA621D">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 14:00:52 UTC</createdTime>
+<comment>N:Natural;J:Juridica</comment>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<listOfValues>
+<valueDef value="J" description="Juridico"/>
+<valueDef value="N" description="Natural"/>
+</listOfValues>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROV_PERSONA_V" id="B156D714-A781-8E7F-DF4C-8B1E388173BB">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 14:39:12 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0DC42EE-88F5-4926-22CA-A3526D0B5EA7" referredColumn="7CAEF8C4-9FF7-8F2B-5549-9FD06C7C1B14"/>
+</associations>
+</Column>
+<Column name="PROV_EMPRESA_V" id="796B92B3-4460-4573-D770-C28935FC9F77">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 14:39:12 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="080F00C7-44F4-ABFE-9FF6-B335F086767F" referredColumn="46B905ED-336C-138C-BFDF-C18EEE39CA1E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3EB58899-2CC2-F3B3-DCE8-528E73EA6D91" name="PROVEDORES_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 14:00:52 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6C58FD6-B9E4-167D-D48C-9DE64C869492"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CB7AE65-5ED8-4643-0FB1-E494E2DF2607" name="PROVEDORES__PERS_UN">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 15:06:17 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B156D714-A781-8E7F-DF4C-8B1E388173BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D85D23E6-D3FA-FA7F-27FE-79AC592366F9" name="PROVEDORES__EMPREUN">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 15:06:17 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="796B92B3-4460-4573-D770-C28935FC9F77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92F3EB89-B55F-16C2-642A-867862656305" name="PROVEDORES_PERSONAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 14:40:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B156D714-A781-8E7F-DF4C-8B1E388173BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BC82B32-644F-7EEC-08BB-8F96354AF8BB" name="PROVEDORES_EMPRESAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 14:40:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="796B92B3-4460-4573-D770-C28935FC9F77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

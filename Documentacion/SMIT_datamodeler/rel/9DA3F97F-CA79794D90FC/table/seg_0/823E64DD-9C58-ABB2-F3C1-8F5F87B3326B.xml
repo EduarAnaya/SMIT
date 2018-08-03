@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="823E64DD-9C58-ABB2-F3C1-8F5F87B3326B" name="USUARIOS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 17:16:28 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUA_ID_INT" id="106017F1-84C7-7217-FDC7-9243CB1A1E8A">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 17:17:47 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUA_NICNAME_V" id="B31030B4-16E6-9C0D-55D8-20E966A14BD9">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 17:26:27 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUA_CONTASEÑA_V" id="132815CE-B0C0-8446-5DC4-0D8C05D5A4E2">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 17:29:08 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUA_ROLSISTEMA_INT" id="530207EB-8A1B-88BE-ACA4-9FB0E56925EA">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 17:22:28 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC2B8F87-4D3E-911A-5526-3129D44BBA27" referredColumn="5939D616-A7DF-4589-0CCA-8644F1F9323B"/>
+</associations>
+</Column>
+<Column name="USUA_ORIGEN_V" id="D09CD6D7-DCEB-2592-0E72-C0C80710FCB0">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 17:33:24 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<listOfValues>
+<valueDef value="1" description="Local"/>
+<valueDef value="2" description="LDAP"/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C6EC47E-75DD-3336-F095-E6F6CB19EA65" name="USUARIOS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 17:17:47 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="106017F1-84C7-7217-FDC7-9243CB1A1E8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CE45705-30D8-831F-99D9-88383AF7022D" name="USUARIOS__UN">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 17:34:37 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B31030B4-16E6-9C0D-55D8-20E966A14BD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97C28E72-C2EC-8945-90E4-61043A929BC8" name="USUARIOS_ROLUSUARIOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 17:26:27 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="530207EB-8A1B-88BE-ACA4-9FB0E56925EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="53329C09-6B39-12E7-87AA-4376FB90219C" containerWithKeyObject="55F22662-54A0-06FF-2DBB-BA1309B8104E" localFKIndex="94651E2B-3DE4-1F57-E3CB-24E4EF2BD98F" name="PROCEPCS_PROCES_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 20:51:36 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<referredTableLongName>PROCESADORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5865DCB7-FDA7-1051-8688-2A02FFA0BD27</referredTableID>
+<keyObject>8EF34E2F-5788-D065-504E-32E0CE07DEED</keyObject>
+<referredKeyID>8EF34E2F-5788-D065-504E-32E0CE07DEED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PROS_ID_IN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

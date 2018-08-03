@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55F22662-54A0-06FF-2DBB-BA1309B8104E" name="PROCESADORES_PCS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 20:45:54 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRPC_ID_INT" id="FE50A4CF-1F70-2941-81EE-D9D924F15859">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 20:47:52 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRPC_PROCESADOR_INT" id="44DA71D8-51A4-4C54-ED22-3E5028731CCE">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 20:51:21 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53329C09-6B39-12E7-87AA-4376FB90219C" referredColumn="D8E6EA89-2322-6530-C9CD-71EAD57982D4"/>
+</associations>
+</Column>
+<Column name="PRPC_COMPUTADOR_V" id="C644A2A5-C8EB-4EFF-5E65-98B45F850625">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 20:48:25 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7AAA262-8E50-681D-569F-28CE4519CDF8" referredColumn="03601D4A-3E4B-00E9-632F-1D027DBBBD71"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9825814-55C2-68C3-6F5C-E35140284C74" name="PROCESADORES_PCS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 20:47:52 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE50A4CF-1F70-2941-81EE-D9D924F15859"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC206574-CC3D-2C8B-766C-B8E1401074B9" name="PROCEPCS_PCS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 20:48:55 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C644A2A5-C8EB-4EFF-5E65-98B45F850625"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94651E2B-3DE4-1F57-E3CB-24E4EF2BD98F" name="PROCEPCS_PROCES_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 20:51:36 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44DA71D8-51A4-4C54-ED22-3E5028731CCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

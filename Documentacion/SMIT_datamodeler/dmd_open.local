@@ -2,5 +2,7 @@
 <design id="704C899A-760D-D69E-4C44-2206576FCB28">
 	<models>
 		<model id="1BBBBD95-F1DA-417E-FB28-2177FE3FF11A" open="true" open_d_pm="false"/>
+		<model id="9DA3F97F-5C0F-A735-9E88-CA79794D90FC" open="true" open_d_pm="false"/>
+		<model id="C9C07A85-1DC5-E300-FC63-C7FCC60142C3" open="true" open_d_pm="false"/>
 	</models>
 </design>

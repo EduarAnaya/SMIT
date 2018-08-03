@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A58B1137-9558-982C-3D82-128FFD0DAEDF" containerWithKeyObject="21A8F6DD-C461-C97A-5D7E-EFA6EDF1B143" localFKIndex="6B15E5D6-2663-9235-6FA6-9D4FAD96A773" name="BODEGAS_OFICINAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 22:21:58 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<referredTableLongName>OFICINAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>19A23F65-C65F-A342-0325-C79D79B27542</referredTableID>
+<keyObject>C0CA778F-7CE4-573D-9689-728F554A91D5</keyObject>
+<referredKeyID>C0CA778F-7CE4-573D-9689-728F554A91D5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>OFIC_ID_INT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

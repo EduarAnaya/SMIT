@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71F0E628-5A67-43F7-1FEF-5DB6BF860CF2" name="HDD_PC">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:03:50 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HDPC_ID_INT" id="A41E1E95-7BD2-5C32-BE94-EAFC51D17BA2">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:04:47 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HDPC_PC_V" id="A4D26C7C-F581-8B36-6230-DBB2493D3868">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:04:47 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC12F2F2-2645-1C5C-58F4-E130DC1F91B7" referredColumn="03601D4A-3E4B-00E9-632F-1D027DBBBD71"/>
+</associations>
+</Column>
+<Column name="HDPC_HDDID_INT" id="A3D7552E-3DBA-8BFD-8F2B-13779B8DB07C">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:04:47 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7BB605F-3AB8-EDC0-071F-8BC10380AB27" referredColumn="F911399C-8CF0-1A90-35CC-27BF700F09C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB8F1D7D-AB1A-1729-2462-E5582ED63ED5" name="HDD_PC_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:04:47 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A41E1E95-7BD2-5C32-BE94-EAFC51D17BA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06DB3E0E-513D-8DDE-902A-F2F37CAE15A7" name="HDD_PC_HDD_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:06:15 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3D7552E-3DBA-8BFD-8F2B-13779B8DB07C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8721D8B-DF5D-A61F-3149-C319DA357585" name="HDD_PC_COMPUTADORES_DISPO_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:06:15 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4D26C7C-F581-8B36-6230-DBB2493D3868"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

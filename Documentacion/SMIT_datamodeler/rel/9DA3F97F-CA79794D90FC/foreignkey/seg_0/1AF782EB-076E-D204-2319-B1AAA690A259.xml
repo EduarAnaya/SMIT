@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1AF782EB-076E-D204-2319-B1AAA690A259" containerWithKeyObject="6C2FA689-C95E-1E44-E443-2FE50E3C75BE" localFKIndex="807F46C4-0F92-E34F-CDB9-F04F127C659B" name="OPEDOCS_TIPOSDOCSCARGADOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 22:19:18 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<referredTableLongName>TRANSDOCSCARGADOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9125C180-87B6-80DC-544E-E3D09D371301</referredTableID>
+<keyObject>7D6897F4-115C-25F4-A42E-C6F7717AF45F</keyObject>
+<referredKeyID>7D6897F4-115C-25F4-A42E-C6F7717AF45F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TDOC_ID_INT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

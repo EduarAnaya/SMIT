@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B0DC42EE-88F5-4926-22CA-A3526D0B5EA7" containerWithKeyObject="C8A2CB33-5E11-C1FD-E3A6-549F6D4CF0B7" localFKIndex="92F3EB89-B55F-16C2-642A-867862656305" name="PROVEDORES_PERSONAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 14:40:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<usedAsRemoteObject>true</usedAsRemoteObject>
+<referredTableLongName>PERSONAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ADF4B02D-5392-72F5-2651-13C2154FA924</referredTableID>
+<keyObject>CE4CF7EF-0E64-8FF4-18C5-F9FD6785DE47</keyObject>
+<referredKeyID>CE4CF7EF-0E64-8FF4-18C5-F9FD6785DE47</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PERS_CEDULA_V</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

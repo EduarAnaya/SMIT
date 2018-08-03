@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19A23F65-C65F-A342-0325-C79D79B27542" name="OFICINAS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 22:21:22 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteDesignID>704C899A-760D-D69E-4C44-2206576FCB28</remoteDesignID>
+<remoteModelID>C9C07A85-1DC5-E300-FC63-C7FCC60142C3</remoteModelID>
+<remoteObjectID>7B1B532E-538E-D366-4034-800150C570CA</remoteObjectID>
+<remoteObjectRelativeStorageName>\rel\C9C07A85-C7FCC60142C3\table\seg_0\7B1B532E-538E-D366-4034-800150C570CA.xml</remoteObjectRelativeStorageName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OFIC_ID_INT" id="0E9ECFCE-2714-9824-ED93-1CD6FECEFB8B">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 22:21:22 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>F31E66E6-0FD8-7924-B94D-23FCC8812CC0</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFIC_NOMBRE_V" id="577FE1A5-83E8-304E-8571-B78419C016C7">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 22:21:22 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>4C12A058-F6EF-C809-5DA8-8746DC15EB1B</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFIC_DIRECCION_V" id="221F7B7E-B2B8-0F7B-F032-A22250B704BD">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 22:21:22 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>609E4C25-D98F-D2C3-89C5-577D33E1D706</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFIC_ADMINISTRADOR_V" id="EE253D0C-F2FF-360B-246D-5770F6D817DA">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 22:21:22 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>84F73A67-5FF3-51BC-9822-43F1F565AB5C</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0CA778F-7CE4-573D-9689-728F554A91D5" name="OFICINAS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 22:21:22 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>BAEC9C17-29A9-2933-1910-4AA3CFBBBD22</remoteObjectID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E9ECFCE-2714-9824-ED93-1CD6FECEFB8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

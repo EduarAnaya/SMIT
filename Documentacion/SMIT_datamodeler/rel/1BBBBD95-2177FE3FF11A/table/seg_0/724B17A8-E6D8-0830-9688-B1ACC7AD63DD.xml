@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="724B17A8-E6D8-0830-9688-B1ACC7AD63DD" name="EMPRESAS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 15:56:18 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteDesignID>704C899A-760D-D69E-4C44-2206576FCB28</remoteDesignID>
+<remoteModelID>C9C07A85-1DC5-E300-FC63-C7FCC60142C3</remoteModelID>
+<remoteObjectID>3514C6BB-661E-9F5E-F6D1-E83C41C3381C</remoteObjectID>
+<remoteObjectRelativeStorageName>\rel\C9C07A85-C7FCC60142C3\table\seg_0\3514C6BB-661E-9F5E-F6D1-E83C41C3381C.xml</remoteObjectRelativeStorageName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPRE_NIT_V" id="EE103B0D-04CD-E809-9C7B-55D6F6B7F7CA">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 15:56:18 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>46B905ED-336C-138C-BFDF-C18EEE39CA1E</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPRE_RAZONSOCIAL_V" id="CCBA09E4-6331-DD8F-E4CE-AE23ED141BAE">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 15:56:18 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>24C150B8-5485-511C-A6A2-98F9ED2BE86E</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPRE_TELEFONO_V" id="11471DE1-EBB1-8C06-738D-B3159FCFF818">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 15:56:18 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>BB985EF4-1BED-885D-E9C1-33B8178CB3BE</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPRE_EMAIL_V" id="D72DFBBD-491D-6694-AADC-7888580AF882">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 15:56:18 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>3DEB0530-47BB-A5F4-A99F-1589D8D90DE2</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE8F1152-D388-12C0-C120-8D3ADD37AA54" name="EMPRESAS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 15:56:18 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>BE1026D9-575E-7BF1-596B-D2BE9FD7B2A2</remoteObjectID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE103B0D-04CD-E809-9C7B-55D6F6B7F7CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

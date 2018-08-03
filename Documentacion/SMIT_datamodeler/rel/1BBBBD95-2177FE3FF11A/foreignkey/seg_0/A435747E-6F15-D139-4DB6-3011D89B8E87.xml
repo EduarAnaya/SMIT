@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A435747E-6F15-D139-4DB6-3011D89B8E87" containerWithKeyObject="B8566311-774D-0DA1-D7F0-C09061931DBB" localFKIndex="57F16C63-A37F-CAB5-BEFC-123E47AE2AD8" name="HDD_MARCAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:10:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<referredTableLongName>MARCAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>97CF718E-982E-2520-0A67-76AC68A65530</referredTableID>
+<keyObject>12046F55-28C7-3906-DBED-782F947A2A0F</keyObject>
+<referredKeyID>12046F55-28C7-3906-DBED-782F947A2A0F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MARC_ID_INT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

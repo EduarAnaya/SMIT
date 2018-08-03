@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="436C5C8B-902E-051A-2D10-D7A946A6B61D" containerWithKeyObject="B8566311-774D-0DA1-D7F0-C09061931DBB" localFKIndex="9DFAED87-F92F-AD2E-D81A-4EF591667FFF" name="HDD_INTERFAZHDD_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:10:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<referredTableLongName>INTERFAZ_HDD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B2262DF5-8271-532E-BF77-2DDB251D9D66</referredTableID>
+<keyObject>0D6A4E05-2C54-EE81-9498-0F5D731B2963</keyObject>
+<referredKeyID>0D6A4E05-2C54-EE81-9498-0F5D731B2963</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>INHD_ID_INT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

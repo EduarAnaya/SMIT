@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21A8F6DD-C461-C97A-5D7E-EFA6EDF1B143" name="BODEGAS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 17:20:51 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BODE_ID_INT" id="B22D468B-579B-F57A-8FA5-E818988A391E">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 17:25:53 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BODE_DESC_V" id="0D17DDCC-E9A9-3810-5E50-00432A151F8B">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 17:25:53 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BODE_UBICACION_INT" id="5E7F6C5A-A347-B335-4105-39767C7BB509">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 17:26:52 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A58B1137-9558-982C-3D82-128FFD0DAEDF" referredColumn="0E9ECFCE-2714-9824-ED93-1CD6FECEFB8B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB200515-8137-9C14-B56B-523B062592F5" name="BODEGAS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-30 17:25:53 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B22D468B-579B-F57A-8FA5-E818988A391E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B15E5D6-2663-9235-6FA6-9D4FAD96A773" name="BODEGAS_OFICINAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 22:21:58 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E7F6C5A-A347-B335-4105-39767C7BB509"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

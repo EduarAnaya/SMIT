@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6CF7F47-7976-787F-630B-6DED1941A851" containerWithKeyObject="6C2FA689-C95E-1E44-E443-2FE50E3C75BE" localFKIndex="CDA939F8-0996-949C-4509-0AA01F772070" name="OPEDOCS_DOCUMENTOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 16:44:03 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<referredTableLongName>DOCUMENTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>411185CD-C4D5-5B1D-62FE-2EAA35AD1CF9</referredTableID>
+<keyObject>86D68C80-03FD-BB7B-BC99-F7F92EB23267</keyObject>
+<referredKeyID>86D68C80-03FD-BB7B-BC99-F7F92EB23267</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DOCU_ID_INT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

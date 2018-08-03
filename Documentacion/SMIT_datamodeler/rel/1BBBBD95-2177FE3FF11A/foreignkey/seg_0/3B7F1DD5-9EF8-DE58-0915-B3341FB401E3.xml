@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3B7F1DD5-9EF8-DE58-0915-B3341FB401E3" containerWithKeyObject="C51CC429-A97D-3657-7002-42E5334271AD" localFKIndex="0F4B4662-AEE1-F6C5-233C-761CC097FA03" name="INVBAJAS_PERSONAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 14:42:32 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<referredTableLongName>PERSONAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E3166E14-591A-33A7-ED4B-AFDF02F1579A</referredTableID>
+<keyObject>173F3E77-6593-8796-98BF-0E0BB67A8363</keyObject>
+<referredKeyID>173F3E77-6593-8796-98BF-0E0BB67A8363</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PERS_CEDULA_V</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1552D97D-171C-E9E8-48C3-05836F0DCCDF" name="INVENTARIO_BAJAS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 22:13:51 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteDesignID>704C899A-760D-D69E-4C44-2206576FCB28</remoteDesignID>
+<remoteModelID>1BBBBD95-F1DA-417E-FB28-2177FE3FF11A</remoteModelID>
+<remoteObjectID>C51CC429-A97D-3657-7002-42E5334271AD</remoteObjectID>
+<remoteObjectRelativeStorageName>\rel\1BBBBD95-2177FE3FF11A\table\seg_0\C51CC429-A97D-3657-7002-42E5334271AD.xml</remoteObjectRelativeStorageName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INBA_ID_INT" id="ECA7A8D4-AC7F-3434-D652-C822B10C9C2E">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 22:13:51 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>4239C15B-A2D2-A8AF-5C4D-686329B121E3</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INBA_DETALLES_INT" id="7CDC4F4B-751B-124A-FB53-1E53E21D5073">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 22:13:51 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>38DBA9F3-7F41-63BA-FFD1-C78747326140</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INBA_CONCEPTO_V" id="8D600AEA-1296-8C81-5836-FE6B6739FA6E">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 22:13:51 UTC</createdTime>
+<comment>DO:Donado;DF:Disposicion Final</comment>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>9849F4B8-6DD7-38E8-CA03-D6778AB38685</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="DF" description="Dispo Final"/>
+<valueDef value="DO" description="Donado"/>
+</listOfValues>
+<defaultValue>DF</defaultValue>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INBA_TIPOELEMETO_V" id="63565302-0C01-8FD0-3497-4CD2E1834AAC">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 22:13:51 UTC</createdTime>
+<comment>R:Repuestos;D:Dispositivos</comment>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>263730FC-9E4A-FB38-CE5B-781E8A024FFA</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="D" description="Dispositivos"/>
+<valueDef value="R" description="Repuestos"/>
+</listOfValues>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INBA_FECHABAJA_DATE" id="BD8878F0-37B2-497F-5DCF-B96987065801">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 22:13:51 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>52117C64-E3F4-E857-F68A-99AF35F2A8DF</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INBA_TIPOBENEFI_INT" id="C9BD5F14-905E-5D22-42D7-9A847B69B793">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 22:13:51 UTC</createdTime>
+<comment>1:Empleado;2:Empresa/Fundacion;3:PersonaExterna</comment>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>6F9125F6-CE92-FA09-A91A-8A456F19984E</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INBA_PERSONA_V" id="4EEC6C50-64BD-9B7F-6600-1EDE64FAD647">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 22:13:51 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>2C043E8D-D84B-CCC7-6B72-67B91D578A0A</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INBA_EMPRESADONA_V" id="44F1B681-B409-A187-8B70-07B8871BECC7">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 22:13:51 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>E9DC52A1-A17C-6676-F15D-2EF995BE3DE1</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INBA_PROVDISPOF_V" id="A6A6A3C0-5A51-21F2-05D8-BA5434F25423">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 22:13:51 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>464D61EF-5EE6-93AD-A727-7794D7CA57FC</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INBA_DESCRICION_V" id="C595FB83-2F2C-D33E-FF23-F9FA76F1751D">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 22:13:51 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>7DBCD449-F34D-A985-6B58-EFE166EE6DA6</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFC8BFC1-58C6-72FD-29B0-F1F2FB628FC4" name="INVENTARIO_BAJAS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 22:13:51 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>8385D7F3-F19C-54B6-0595-4F8DC554AADF</remoteObjectID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECA7A8D4-AC7F-3434-D652-C822B10C9C2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

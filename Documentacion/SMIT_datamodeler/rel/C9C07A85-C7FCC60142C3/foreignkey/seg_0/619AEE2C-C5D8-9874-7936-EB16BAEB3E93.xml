@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="619AEE2C-C5D8-9874-7936-EB16BAEB3E93" containerWithKeyObject="1BD13ACB-3D41-997A-7DAA-5319C926B200" localFKIndex="6728EF8B-67E5-2E13-A060-7B06EE7DDE2F" name="OFICINATRABAJA_OFICINAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 17:47:37 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<usedAsRemoteObject>true</usedAsRemoteObject>
+<referredTableLongName>OFICINAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7B1B532E-538E-D366-4034-800150C570CA</referredTableID>
+<keyObject>BAEC9C17-29A9-2933-1910-4AA3CFBBBD22</keyObject>
+<referredKeyID>BAEC9C17-29A9-2933-1910-4AA3CFBBBD22</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>OFIC_ID_INT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

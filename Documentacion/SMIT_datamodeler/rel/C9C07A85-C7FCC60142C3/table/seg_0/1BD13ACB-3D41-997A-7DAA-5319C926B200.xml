@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BD13ACB-3D41-997A-7DAA-5319C926B200" name="OFICINAEMPLEADOS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 17:45:10 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<usedAsRemoteObject>true</usedAsRemoteObject>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OFEM_ID_INT" id="4086CD46-0574-3910-70A4-04D601962B6B">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 17:46:39 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFEM_OFICINA_INT" id="972E3165-0010-BAB8-2DB8-B369F9F48DFB">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 17:46:39 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="619AEE2C-C5D8-9874-7936-EB16BAEB3E93" referredColumn="F31E66E6-0FD8-7924-B94D-23FCC8812CC0"/>
+</associations>
+</Column>
+<Column name="OFEM_EMPLEADO_V" id="9F6E75D1-8C93-DFBB-EDFA-AEC56D253653">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 17:46:39 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E381613-BEE4-399D-2AE6-28162B443CC8" referredColumn="E4B1A8BF-1B58-6F02-6854-BFEB4FB9CBD5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D750399-0C55-2D1E-295B-D2DA11807D80" name="OFICINAEMPLEADOS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 17:46:39 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4086CD46-0574-3910-70A4-04D601962B6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6728EF8B-67E5-2E13-A060-7B06EE7DDE2F" name="OFICINATRABAJA_OFICINAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 17:47:37 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="972E3165-0010-BAB8-2DB8-B369F9F48DFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B698569-765A-B20E-DB23-1C888E6B71AF" name="OFICINATRABAJA_EMPLEADOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 17:47:47 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F6E75D1-8C93-DFBB-EDFA-AEC56D253653"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

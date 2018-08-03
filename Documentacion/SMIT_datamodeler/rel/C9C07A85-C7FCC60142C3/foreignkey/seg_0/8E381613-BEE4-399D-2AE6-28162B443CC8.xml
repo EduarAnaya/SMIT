@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8E381613-BEE4-399D-2AE6-28162B443CC8" containerWithKeyObject="1BD13ACB-3D41-997A-7DAA-5319C926B200" localFKIndex="9B698569-765A-B20E-DB23-1C888E6B71AF" name="OFICINATRABAJA_EMPLEADOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 17:47:47 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<usedAsRemoteObject>true</usedAsRemoteObject>
+<referredTableLongName>EMPLEADOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4AB1C530-E873-2B78-1E2F-B668E6DA7B5B</referredTableID>
+<keyObject>7F39C253-D233-7EED-83E8-CEAEBFCA9700</keyObject>
+<referredKeyID>7F39C253-D233-7EED-83E8-CEAEBFCA9700</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EMPL_CEDULA_V</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

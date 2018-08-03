@@ -59,17 +59,6 @@
 <colAssociation fkAssociation="EE072D4F-1142-B183-FCE0-D859857FAEC2" referredColumn="8C0A38B5-3F17-0F22-A7FE-31CEBB73D3AE"/>
 </associations>
 </Column>
-<Column name="DISPO_ESTADO_INT" id="F1732C5D-A7FD-2ECD-88A9-DF909CD090D9">
-<createdBy>auxsoporte1</createdBy>
-<createdTime>2018-07-27 20:43:06 UTC</createdTime>
-<ownerDesignName>SMIT_datamodeler</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="DISPO_DESC_V" id="868CE132-E350-5AE9-7AD1-57396927789A">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-27 20:41:43 UTC</createdTime>
@@ -80,6 +69,57 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>200 CHAR</dataTypeSize>
 <ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISPO_ESTADOUSO_V" id="3316EE4D-463E-E09E-EF31-D79EC3B41218">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-31 17:24:05 UTC</createdTime>
+<comment>N:Nuevo;U:Usado</comment>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="Nuevo"/>
+<valueDef value="U" description="Usado"/>
+</listOfValues>
+<defaultValue>N</defaultValue>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISPO_ESTADODISPO_V" id="A0BD2091-E38C-521B-7524-CFA42C02828E">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-31 20:14:00 UTC</createdTime>
+<comment>L:Libre;O:Ocupado</comment>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<listOfValues>
+<valueDef value="L" description="Libre"/>
+<valueDef value="O" description="Ocuado"/>
+</listOfValues>
+<defaultValue>L</defaultValue>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISPO_ESTADOINVET_V" id="9ADAA6AC-ACE8-368B-79E7-9D25C7AB4A24">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-07-31 22:58:33 UTC</createdTime>
+<comment>A:Activo;D:Disposicion Final</comment>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="Activo "/>
+<valueDef value="D" description="Dispocicion Final"/>
+</listOfValues>
+<defaultValue>A</defaultValue>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

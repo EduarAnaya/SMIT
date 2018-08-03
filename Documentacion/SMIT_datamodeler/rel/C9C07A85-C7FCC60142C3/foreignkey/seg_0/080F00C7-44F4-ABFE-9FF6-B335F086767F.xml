@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="080F00C7-44F4-ABFE-9FF6-B335F086767F" containerWithKeyObject="C8A2CB33-5E11-C1FD-E3A6-549F6D4CF0B7" localFKIndex="1BC82B32-644F-7EEC-08BB-8F96354AF8BB" name="PROVEDORES_EMPRESAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 14:40:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<usedAsRemoteObject>true</usedAsRemoteObject>
+<referredTableLongName>EMPRESAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3514C6BB-661E-9F5E-F6D1-E83C41C3381C</referredTableID>
+<keyObject>BE1026D9-575E-7BF1-596B-D2BE9FD7B2A2</keyObject>
+<referredKeyID>BE1026D9-575E-7BF1-596B-D2BE9FD7B2A2</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>EMPRE_NIT_V</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

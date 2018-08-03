@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCA7B11D-4C2B-57E7-6C1E-514C4B7AA674" name="ASIGNACION_DISPOSITIVOS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:31:38 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ASDP_ID_INT" id="A356156C-DA65-3063-A108-3B521E6425D6">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:32:12 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASDP_OFICID_INT" id="EB111F07-61C3-6B38-5FE9-F24C2D40A6D7">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:32:39 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE213C9D-A4CA-E5A3-4F38-65743BC2BD54" referredColumn="0E9ECFCE-2714-9824-ED93-1CD6FECEFB8B"/>
+</associations>
+</Column>
+<Column name="ASDP_DISPOSITIVO_V" id="DD57620F-CBFA-3BE9-E6C8-06C48577B688">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:35:09 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88386C9B-D216-5E09-4814-65721E443042" referredColumn="AEE0A312-9BD0-E634-D35E-CF541208B8FF"/>
+</associations>
+</Column>
+<Column name="ASDP_EMPLEADO_V" id="AF89001C-9CEF-2E07-20FD-BCF74B7AF653">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:37:00 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5AC5512-9850-56DE-CEB7-0B84EAB41050" referredColumn="F8E01C6D-B6DD-6709-B791-C5ABE26CE1BB"/>
+</associations>
+</Column>
+<Column name="ASDP_TIPOUSO_V" id="7CDD2F5D-D7A8-8587-F4A9-90A06F4A32F1">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:40:45 UTC</createdTime>
+<comment>I:Individual;C:Colectivo</comment>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="C" description="Colectivo"/>
+<valueDef value="I" description="Individual"/>
+</listOfValues>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASDP_FECASIGNA_DATE" id="DDC22424-5F63-B969-3BAC-68ACA0C46948">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:38:14 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASDP_FECRETIRO_DATE" id="F20D87B2-E202-62A2-097A-1796958CA99A">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:38:33 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASDP_ESTADOASIGNA_V" id="63EDE8BC-C9EA-A3F3-AA3B-9ED15EA76202">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:39:03 UTC</createdTime>
+<comment>A:Asignado;R:Retirado</comment>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="Asignado"/>
+<valueDef value="R" description="Retirado"/>
+</listOfValues>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASDP_DESCRIP_V" id="81B07A8E-3681-B64C-7E70-3405CC84022F">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 22:03:22 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B98D185F-4461-93EC-DB0D-F758B133133B" name="ASIGNACION_DISPOSITIVOS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:32:12 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A356156C-DA65-3063-A108-3B521E6425D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D316548-DE17-602C-2EF7-FC493595D781" name="ASIGDISPO_DISPOSITIVOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:35:32 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD57620F-CBFA-3BE9-E6C8-06C48577B688"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAF9B120-0304-0288-26B9-3A78E87BB5B2" name="ASIGDISPO_EMPLEADOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:37:43 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF89001C-9CEF-2E07-20FD-BCF74B7AF653"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC68334A-9A45-5F22-73AA-324CE81FD71E" name="ASIGDISPO_OFICINAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 22:24:03 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB111F07-61C3-6B38-5FE9-F24C2D40A6D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

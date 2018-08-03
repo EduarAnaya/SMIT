@@ -5,4 +5,9 @@
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>704C899A-760D-D69E-4C44-2206576FCB28</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="704C899A-760D-D69E-4C44-2206576FCB28">
+<designStoragePath>D:\BIBLIOTECAS\DESARROLLO\DESARROLLO WEB\SMIT\Documentacion\SMIT_datamodeler</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>

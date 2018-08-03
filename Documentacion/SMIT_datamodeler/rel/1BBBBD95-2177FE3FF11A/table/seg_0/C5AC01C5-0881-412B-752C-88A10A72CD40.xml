@@ -22,43 +22,7 @@
 <colAssociation fkAssociation="3B23AA88-85C4-9B49-E497-01868359A509" referredColumn="AEE0A312-9BD0-E634-D35E-CF541208B8FF"/>
 </associations>
 </Column>
-<Column name="COMP_PROCESADOR_INT" id="3FA647BF-3E19-5D31-B0CB-BC39CCCD6594">
-<createdBy>auxsoporte1</createdBy>
-<createdTime>2018-07-27 16:48:03 UTC</createdTime>
-<ownerDesignName>SMIT_datamodeler</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="EAF8A62F-F532-050B-667A-86F9BC928C55" referredColumn="D8E6EA89-2322-6530-C9CD-71EAD57982D4"/>
-</associations>
-</Column>
-<Column name="COMP_TPALMACENAMIENTO_INT" id="85BB8A48-8D80-12EB-86D8-FA23737D238C">
-<createdBy>auxsoporte1</createdBy>
-<createdTime>2018-07-27 16:49:36 UTC</createdTime>
-<ownerDesignName>SMIT_datamodeler</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C37D74F5-FD36-DA7B-2472-6841CC4EAC10" referredColumn="D3BA2418-72F1-CF52-F008-9D9CD8EDD780"/>
-</associations>
-</Column>
-<Column name="COMP_CAPALMACENA_INT" id="EA2179D8-1633-F543-BA2C-9E821CECED43">
-<createdBy>auxsoporte1</createdBy>
-<createdTime>2018-07-27 16:49:36 UTC</createdTime>
-<ownerDesignName>SMIT_datamodeler</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="COMP_CAPRAM_INT" id="517FD943-A8F8-1222-6158-41C7F2F6E0C0">
+<Column name="COMP_RAMINSTALL_INT" id="517FD943-A8F8-1222-6158-41C7F2F6E0C0">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-27 16:49:36 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>
@@ -89,26 +53,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="03601D4A-3E4B-00E9-632F-1D027DBBBD71"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="DD623958-6DF5-AD12-D4E6-AE0DB486128C" name="COMPUTADORES_INTERFAZHDD_FK">
-<createdBy>auxsoporte1</createdBy>
-<createdTime>2018-07-27 17:08:56 UTC</createdTime>
-<ownerDesignName>SMIT_datamodeler</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="85BB8A48-8D80-12EB-86D8-FA23737D238C"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="71B621F9-06F6-138F-F59F-70D4B812EEFC" name="COMPUTADORES_PROCESADORES_FK">
-<createdBy>auxsoporte1</createdBy>
-<createdTime>2018-07-27 17:29:29 UTC</createdTime>
-<ownerDesignName>SMIT_datamodeler</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="3FA647BF-3E19-5D31-B0CB-BC39CCCD6594"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

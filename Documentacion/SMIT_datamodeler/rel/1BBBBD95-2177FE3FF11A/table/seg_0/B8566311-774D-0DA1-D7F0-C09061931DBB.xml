@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8566311-774D-0DA1-D7F0-C09061931DBB" name="HDD">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 20:46:20 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HDD_ID_INT" id="F911399C-8CF0-1A90-35CC-27BF700F09C6">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 20:53:46 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HDD_INTERFAZHDD_INT" id="6A906859-E7B8-5C9E-1C46-C328B356378D">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 20:53:00 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="436C5C8B-902E-051A-2D10-D7A946A6B61D" referredColumn="D3BA2418-72F1-CF52-F008-9D9CD8EDD780"/>
+</associations>
+</Column>
+<Column name="HDD_CAPALMACENA_INT" id="C54D74C9-E4E1-B4FC-94BB-C16F317BF057">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 20:53:00 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HDD_RPM_INT" id="BA491C26-BC9D-6A8E-ECAE-47EDAB253989">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:07:42 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HDD_MARCA_INT" id="270E2D56-BE18-0066-2724-B517681A0A02">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:09:19 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A435747E-6F15-D139-4DB6-3011D89B8E87" referredColumn="89FB5940-89C2-F246-AE41-3F650F2FBD1D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB560F21-557D-0AFB-8672-49968B2356ED" name="HDD_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 20:53:46 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F911399C-8CF0-1A90-35CC-27BF700F09C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DFAED87-F92F-AD2E-D81A-4EF591667FFF" name="HDD_INTERFAZHDD_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:10:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A906859-E7B8-5C9E-1C46-C328B356378D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57F16C63-A37F-CAB5-BEFC-123E47AE2AD8" name="HDD_MARCAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:10:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="270E2D56-BE18-0066-2724-B517681A0A02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="F9D84BBB-C40D-7AD0-913B-6367376DEAB1" name="SMIT_SISTEMA" visible="false"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

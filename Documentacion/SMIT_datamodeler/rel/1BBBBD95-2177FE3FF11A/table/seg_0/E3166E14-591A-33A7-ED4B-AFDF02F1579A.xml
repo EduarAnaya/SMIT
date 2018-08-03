@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3166E14-591A-33A7-ED4B-AFDF02F1579A" name="PERSONAS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 14:42:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteDesignID>704C899A-760D-D69E-4C44-2206576FCB28</remoteDesignID>
+<remoteModelID>C9C07A85-1DC5-E300-FC63-C7FCC60142C3</remoteModelID>
+<remoteObjectID>ADF4B02D-5392-72F5-2651-13C2154FA924</remoteObjectID>
+<remoteObjectRelativeStorageName>\rel\C9C07A85-C7FCC60142C3\table\seg_0\ADF4B02D-5392-72F5-2651-13C2154FA924.xml</remoteObjectRelativeStorageName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERS_CEDULA_V" id="07B5F55E-25DA-B886-E031-789CCF6BDE16">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 14:42:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>7CAEF8C4-9FF7-8F2B-5549-9FD06C7C1B14</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERS_NOMBRES_V" id="1F500FEF-7AE2-64B7-7CC5-84F8722378EB">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 14:42:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>68FB41B0-A13D-B29C-C7DF-EE8A179A9AF8</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERS_APELLIDOS_V" id="46250208-C483-F0BB-1818-53D5AB92BA81">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 14:42:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>D2E916F2-7645-C123-724C-1B548A2963E4</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="173F3E77-6593-8796-98BF-0E0BB67A8363" name="PERSONAS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 14:42:07 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>CE4CF7EF-0E64-8FF4-18C5-F9FD6785DE47</remoteObjectID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07B5F55E-25DA-B886-E031-789CCF6BDE16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

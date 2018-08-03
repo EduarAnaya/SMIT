@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C2FA689-C95E-1E44-E443-2FE50E3C75BE" name="OPERACION_DOCUMENTOS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 16:35:21 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<usedAsRemoteObject>true</usedAsRemoteObject>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OPDC_ID_INT" id="FB8437C7-00D7-F5E9-0875-46DC28B475BF">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 16:40:05 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPDC_OPRACION_INT" id="735FFF13-0F75-EF81-2AA1-E79086650B7C">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 16:42:58 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AF782EB-076E-D204-2319-B1AAA690A259" referredColumn="C1C9B035-34FB-FEAC-548B-53D9FCA56DDF"/>
+</associations>
+</Column>
+<Column name="OPDC_DOCUMENTO_INT" id="E711B607-5150-5F7A-417C-44B2A9E21BA0">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 16:43:25 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6CF7F47-7976-787F-630B-6DED1941A851" referredColumn="1D53D668-D107-9E13-A268-DFDC9599EAA3"/>
+</associations>
+</Column>
+<Column name="OPDC_ACTABAJA_INT" id="42DA0E42-1CC3-E04B-C369-39FC83E7A23A">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 22:02:51 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F8AFABA-186D-A291-79DB-9AB14B3F3456" referredColumn="ECA7A8D4-AC7F-3434-D652-C822B10C9C2E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="451B93BB-5B6C-28BF-BB40-586A9DB2B492" name="OPERACION_DOCUMENTOS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 16:40:12 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB8437C7-00D7-F5E9-0875-46DC28B475BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDA939F8-0996-949C-4509-0AA01F772070" name="OPEDOCS_DOCUMENTOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 16:44:03 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E711B607-5150-5F7A-417C-44B2A9E21BA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC78A550-198C-340A-7C96-6C24D9478047" name="OPEDOCS_INVENTARIO_BAJAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 22:14:06 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42DA0E42-1CC3-E04B-C369-39FC83E7A23A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="807F46C4-0F92-E34F-CDB9-F04F127C659B" name="OPEDOCS_TIPOSDOCSCARGADOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-03 22:19:18 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="735FFF13-0F75-EF81-2AA1-E79086650B7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

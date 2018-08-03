@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FAA8BEC9-1249-0C05-B735-50231265E502" containerWithKeyObject="C51CC429-A97D-3657-7002-42E5334271AD" localFKIndex="E493625A-A897-5D93-672D-78881601E303" name="INVBAJAS_PROVEDORES_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 14:42:53 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<referredTableLongName>PROVEDORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8B8FFA07-80D7-55D4-D787-7A9332044A36</referredTableID>
+<keyObject>EAC929B7-44B3-01BD-F9A5-88C2779E929D</keyObject>
+<referredKeyID>EAC929B7-44B3-01BD-F9A5-88C2779E929D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PROV_ID_V</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F7D0A09D-8BB2-9A15-A58A-FE1BBF1FFE1E" containerWithKeyObject="4F3338AC-617D-B27C-2292-EF310D37CA81" localFKIndex="9E757FA7-0800-09E6-805C-E29775C84738" name="DETBAJAS_REPUESTOS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 19:45:21 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<referredTableLongName>REPUESTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>62C3E751-CA63-32AA-BB57-94650836F19A</referredTableID>
+<keyObject>7D849725-D7D6-144A-E468-CC78E61BBAC1</keyObject>
+<referredKeyID>7D849725-D7D6-144A-E468-CC78E61BBAC1</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>REPU_ID_INT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

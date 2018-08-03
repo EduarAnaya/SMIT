@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A93903A0-CC8D-F8EA-CAFF-86540DF9C7C6" containerWithKeyObject="8B8FFA07-80D7-55D4-D787-7A9332044A36" localFKIndex="0B0E4D29-616F-9306-BEC4-9AA9A20DF1C2" name="PROVEDORES_PERSONAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 14:42:36 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteDesignID>704C899A-760D-D69E-4C44-2206576FCB28</remoteDesignID>
+<remoteModelID>C9C07A85-1DC5-E300-FC63-C7FCC60142C3</remoteModelID>
+<remoteObjectID>B0DC42EE-88F5-4926-22CA-A3526D0B5EA7</remoteObjectID>
+<remoteObjectRelativeStorageName>\rel\C9C07A85-C7FCC60142C3\foreignkey\seg_0\B0DC42EE-88F5-4926-22CA-A3526D0B5EA7.xml</remoteObjectRelativeStorageName>
+<referredTableLongName>PERSONAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E3166E14-591A-33A7-ED4B-AFDF02F1579A</referredTableID>
+<keyObject>173F3E77-6593-8796-98BF-0E0BB67A8363</keyObject>
+<referredKeyID>173F3E77-6593-8796-98BF-0E0BB67A8363</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PERS_CEDULA_V</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

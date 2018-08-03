@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="801B6873-8373-E0C8-773B-407E3F3D8B9F" name="EMPLEADOS">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:37:26 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteDesignID>704C899A-760D-D69E-4C44-2206576FCB28</remoteDesignID>
+<remoteModelID>C9C07A85-1DC5-E300-FC63-C7FCC60142C3</remoteModelID>
+<remoteObjectID>4AB1C530-E873-2B78-1E2F-B668E6DA7B5B</remoteObjectID>
+<remoteObjectRelativeStorageName>\rel\C9C07A85-C7FCC60142C3\table\seg_0\4AB1C530-E873-2B78-1E2F-B668E6DA7B5B.xml</remoteObjectRelativeStorageName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPL_CEDULA_V" id="F8E01C6D-B6DD-6709-B791-C5ABE26CE1BB">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:37:26 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>E4B1A8BF-1B58-6F02-6854-BFEB4FB9CBD5</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D58C9BDE-1646-D35D-C7A1-DD0D2AE78835" referredColumn="07B5F55E-25DA-B886-E031-789CCF6BDE16"/>
+</associations>
+</Column>
+<Column name="EMPL_AREA_INT" id="296CCC2E-FFEE-C3B1-6596-C4C2008BDC88">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:37:26 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>A26412B0-ED90-D1CA-672E-117BC6528FD2</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPL_ESTADO_V" id="21153581-6911-FEC7-5598-F05B50D93720">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:37:26 UTC</createdTime>
+<comment>A:Activo;I:Inactivo</comment>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>CFB4DC18-1DCF-8957-FFA0-A6BFE2ABCA13</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="Activo"/>
+<valueDef value="I" description="Inactivo"/>
+</listOfValues>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9569F05-9642-4CE4-65C0-B099238714E5" name="EMPLEADOS_PK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:37:26 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<remoteObjectID>7F39C253-D233-7EED-83E8-CEAEBFCA9700</remoteObjectID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8E01C6D-B6DD-6709-B791-C5ABE26CE1BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F488F252-2126-92F4-FA4B-F5D7E2C39400" name="EMPLEADOS_PERSONAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 21:37:26 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8E01C6D-B6DD-6709-B791-C5ABE26CE1BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

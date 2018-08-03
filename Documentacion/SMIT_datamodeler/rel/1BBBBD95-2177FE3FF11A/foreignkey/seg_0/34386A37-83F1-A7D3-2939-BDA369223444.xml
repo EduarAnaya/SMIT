@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="34386A37-83F1-A7D3-2939-BDA369223444" containerWithKeyObject="4F3338AC-617D-B27C-2292-EF310D37CA81" localFKIndex="06AFFF45-5625-DD24-79D0-961139D37C51" name="DETBAJAS_INVBAJAS_FK">
+<createdBy>auxsoporte1</createdBy>
+<createdTime>2018-08-02 19:54:25 UTC</createdTime>
+<ownerDesignName>SMIT_datamodeler</ownerDesignName>
+<referredTableLongName>INVENTARIO_BAJAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C51CC429-A97D-3657-7002-42E5334271AD</referredTableID>
+<keyObject>8385D7F3-F19C-54B6-0595-4F8DC554AADF</keyObject>
+<referredKeyID>8385D7F3-F19C-54B6-0595-4F8DC554AADF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>INBA_ID_INT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
