@@ -27,7 +27,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>200 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="BC12F2F2-2645-1C5C-58F4-E130DC1F91B7" referredColumn="03601D4A-3E4B-00E9-632F-1D027DBBBD71"/>

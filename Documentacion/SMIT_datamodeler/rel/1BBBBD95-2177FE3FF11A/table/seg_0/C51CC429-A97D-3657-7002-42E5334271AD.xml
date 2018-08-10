@@ -20,17 +20,6 @@
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="INBA_DETALLES_INT" id="38DBA9F3-7F41-63BA-FFD1-C78747326140">
-<createdBy>auxsoporte1</createdBy>
-<createdTime>2018-08-02 19:52:06 UTC</createdTime>
-<ownerDesignName>SMIT_datamodeler</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="INBA_CONCEPTO_V" id="9849F4B8-6DD7-38E8-CA03-D6778AB38685">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-08-01 19:59:34 UTC</createdTime>
@@ -127,8 +116,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 CHAR</dataTypeSize>
-<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="FAA8BEC9-1249-0C05-B735-50231265E502" referredColumn="FAA8A637-1AE1-D423-BDFD-F4A83F719F09"/>
