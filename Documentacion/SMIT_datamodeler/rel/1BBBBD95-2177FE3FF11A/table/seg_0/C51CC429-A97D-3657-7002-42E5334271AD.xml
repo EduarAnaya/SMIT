@@ -18,7 +18,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
+<<<<<<< HEAD
 <identityColumn>true</identityColumn>
+=======
+>>>>>>> 7e51133fe32c41dab0d274c7b2e5e5c32b0223c7
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="INBA_CONCEPTO_V" id="9849F4B8-6DD7-38E8-CA03-D6778AB38685">
