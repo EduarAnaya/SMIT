@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COMR_ID_INT" id="0BB01095-9BDD-4CF6-4AED-FB3D62022782">
+<Column name="TPRP_ID_INT" id="0BB01095-9BDD-4CF6-4AED-FB3D62022782">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-30 16:14:17 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>
@@ -17,9 +17,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COMR_DESC_V" id="CC623716-960C-C29F-80DB-E44A0A4E2F48">
+<Column name="TPRP_DESC_V" id="CC623716-960C-C29F-80DB-E44A0A4E2F48">
 <createdBy>auxsoporte1</createdBy>
 <createdTime>2018-07-30 16:14:17 UTC</createdTime>
 <ownerDesignName>SMIT_datamodeler</ownerDesignName>
